@@ -1,0 +1,113 @@
+:root {
+  --scarlet: #a20d37;
+  --ocean-boat-blue: #1077c3;
+  --mikado-yellow: #fec310;
+}
+
+@font-face {
+  font-family: arabic-bold;
+  src: url(../fonts/Qatar2022Arabic-Bold.ttf);
+}
+@font-face {
+  font-family: arabic-heavy;
+  src: url(../fonts/Qatar2022Arabic-Heavy.ttf);
+}
+
+body {
+  background: rgb(138, 21, 56);
+  background: linear-gradient(
+    135deg,
+    rgba(138, 21, 56, 1) 0%,
+    rgba(28, 1, 10, 1) 100%
+  );
+  color: white;
+  font-family: arabic-bold;
+  min-height: 100vh;
+}
+a:hover {
+  text-decoration: none;
+}
+
+#logo {
+  width: 150px;
+}
+#titulo {
+  font-family: arabic-heavy;
+  font-size: 2.5rem;
+}
+table {
+  border-collapse: separate;
+}
+table h5 {
+  font-size: 1.5rem;
+}
+table,
+h5,
+.sele-nombre {
+  color: white;
+}
+header hr,
+footer hr {
+  background: rgba(255, 255, 255, 0.25);
+}
+table hr {
+  background-color: white;
+}
+td {
+  background-color: var(--scarlet) !important;
+  position: relative;
+}
+td::before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+.bandera-bombo,
+.bandera-grupo {
+  color: white;
+  width: 50px;
+  margin-right: 5px;
+  border: 1px solid white;
+}
+.sele-nombre {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+#nota {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+#nota a {
+  color: var(--mikado-yellow);
+}
+#btn-sortear {
+  background-color: var(--ocean-boat-blue);
+}
+#btn-sortear:hover {
+  background-color: rgb(13, 96, 155);
+}
+footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.repository i::before {
+  font-size: 20px;
+}
+.flaticon img {
+  width: 20px;
+}
+.flaticon p {
+  display: inline-block;
+}
+.flaticon a {
+  color: var(--mikado-yellow);
+}
+.flaticon a:hover {
+  color: var(--mikado-yellow);
+}
