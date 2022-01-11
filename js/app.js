@@ -2,6 +2,8 @@ import Seleccion from "./classes/Seleccion.js";
 import Bombo from "./classes/Bombo.js";
 import Grupo from "./classes/Grupo.js";
 
+export let bombos, grupos;
+
 const bombo1 = new Bombo(1, [
   new Seleccion("Catar", "qat", "AFC"),
   new Seleccion("Bélgica", "bel", "UEFA"),
@@ -43,72 +45,24 @@ const bombo4 = new Bombo(4, [
   new Seleccion("Panamá", "pan", "CONCACAF"),
 ]);
 
-const bombos = [bombo1, bombo2, bombo3, bombo4];
+bombos = [bombo1, bombo2, bombo3, bombo4];
 Bombo.imprimirTablasUI(bombos, "bombos");
+
+const grupoA = new Grupo("A", []);
+const grupoB = new Grupo("B", []);
+const grupoC = new Grupo("C", []);
+const grupoD = new Grupo("D", []);
+const grupoE = new Grupo("E", []);
+const grupoF = new Grupo("F", []);
+const grupoG = new Grupo("G", []);
+const grupoH = new Grupo("H", []);
+
+grupos = [grupoA, grupoB, grupoC, grupoD, grupoE, grupoF, grupoG, grupoH];
 
 const boton = document.querySelector("#btn-sortear");
 boton.addEventListener("click", () => {
   document.querySelector("#bombos").classList.add("d-none");
   document.querySelector("#grupos").classList.remove("d-none");
-
-  const grupoA = new Grupo("A", [
-    bombo1.selecciones[0],
-    bombo2.selecciones[0],
-    bombo3.selecciones[0],
-    bombo4.selecciones[0],
-  ]);
-  const grupoB = new Grupo("B", [
-    bombo1.selecciones[1],
-    bombo2.selecciones[1],
-    bombo3.selecciones[1],
-    bombo4.selecciones[1],
-  ]);
-  const grupoC = new Grupo("C", [
-    bombo1.selecciones[2],
-    bombo2.selecciones[2],
-    bombo3.selecciones[2],
-    bombo4.selecciones[2],
-  ]);
-  const grupoD = new Grupo("D", [
-    bombo1.selecciones[3],
-    bombo2.selecciones[3],
-    bombo3.selecciones[3],
-    bombo4.selecciones[3],
-  ]);
-  const grupoE = new Grupo("E", [
-    bombo1.selecciones[4],
-    bombo2.selecciones[4],
-    bombo3.selecciones[4],
-    bombo4.selecciones[4],
-  ]);
-  const grupoF = new Grupo("F", [
-    bombo1.selecciones[5],
-    bombo2.selecciones[5],
-    bombo3.selecciones[5],
-    bombo4.selecciones[5],
-  ]);
-  const grupoG = new Grupo("G", [
-    bombo1.selecciones[6],
-    bombo2.selecciones[6],
-    bombo3.selecciones[6],
-    bombo4.selecciones[6],
-  ]);
-  const grupoH = new Grupo("H", [
-    bombo1.selecciones[7],
-    bombo2.selecciones[7],
-    bombo3.selecciones[7],
-    bombo4.selecciones[7],
-  ]);
-
-  const grupos = [
-    grupoA,
-    grupoB,
-    grupoC,
-    grupoD,
-    grupoE,
-    grupoF,
-    grupoG,
-    grupoH,
-  ];
+  bombo1.sortear();
   Grupo.imprimirTablasUI(grupos, "grupos");
 });
