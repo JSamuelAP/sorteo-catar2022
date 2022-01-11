@@ -25,7 +25,7 @@ const bombo2 = new Bombo(2, [
 const bombo3 = new Bombo(3, [
   new Seleccion("Suecia", "swe", "UEFA"),
   new Seleccion("Gales", "wal", "UEFA"),
-  new Seleccion("Senagal", "sen", "CAF"),
+  new Seleccion("Senegal", "sen", "CAF"),
   new Seleccion("Irán", "irn", "AFC"),
   new Seleccion("Perú", "per", "CONMEBOL"),
   new Seleccion("Serbia", "srb", "UEFA"),
@@ -44,7 +44,7 @@ const bombo4 = new Bombo(4, [
 ]);
 
 const bombos = [bombo1, bombo2, bombo3, bombo4];
-// Bombo.imprimirBombosUI(bombos);
+Bombo.imprimirTablasUI(bombos, "bombos");
 
 const boton = document.querySelector("#btn-sortear");
 boton.addEventListener("click", () => {
@@ -110,5 +110,5 @@ boton.addEventListener("click", () => {
     grupoG,
     grupoH,
   ];
-  Grupo.imprimirGruposUI(grupos);
+  Grupo.imprimirTablasUI(grupos, "grupos");
 });
