@@ -19,6 +19,7 @@ class Bombo extends Tabla {
       grupos[i].selecciones[0] = bombos[0].selecciones[aleatorios[i]];
     }
 
+    // Llenar los 3 lugares restantes de cada grupo
     for (let i = 1; i <= 3; i++) {
       const aleatorios = [...aleatoriosSinRepetir(0, 7)];
       for (let j = 0; j <= 7; j++) {

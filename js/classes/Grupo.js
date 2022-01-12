@@ -10,6 +10,7 @@ class Grupo extends Tabla {
     let hayRepetidas = false;
 
     grupos.forEach((grupo) => {
+      // Obtener las 4 confederaciones de las selecciones de cada grupo
       const confederaciones = grupo.selecciones.map(
         (seleccion) => seleccion.confederacion
       );
@@ -22,15 +23,19 @@ class Grupo extends Tabla {
         CAF: 0,
       };
 
+      // Contar el número de veces que cada confederación aparece en cada grupo
       confederaciones.forEach((confederacion) => {
         contadores[confederacion]++;
       });
 
+      // Si hay más de dos selecciones de la UEFA, se está violando la regla
+      // También si hay más de una selección de las confederaciones restantes
       const { UEFA, CONMEBOL, CONCACAF, AFC, CAF } = contadores;
       if (UEFA > 2 || CONMEBOL > 1 || CONCACAF > 1 || AFC > 1 || CAF > 1) {
         hayRepetidas = true;
       }
     });
+
     return hayRepetidas;
   }
 }
