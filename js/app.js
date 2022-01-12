@@ -2,7 +2,7 @@ import Seleccion from "./classes/Seleccion.js";
 import Bombo from "./classes/Bombo.js";
 import Grupo from "./classes/Grupo.js";
 
-export let bombos, grupos;
+export let grupos;
 
 const bombo1 = new Bombo(1, [
   new Seleccion("Catar", "qat", "AFC"),
@@ -45,7 +45,7 @@ const bombo4 = new Bombo(4, [
   new Seleccion("Panamá", "pan", "CONCACAF"),
 ]);
 
-bombos = [bombo1, bombo2, bombo3, bombo4];
+const bombos = [bombo1, bombo2, bombo3, bombo4];
 Bombo.imprimirTablasUI(bombos, "bombos");
 
 const grupoA = new Grupo("A", []);
@@ -63,6 +63,8 @@ const boton = document.querySelector("#btn-sortear");
 boton.addEventListener("click", () => {
   document.querySelector("#bombos").classList.add("d-none");
   document.querySelector("#grupos").classList.remove("d-none");
-  bombo1.sortear();
+  do {
+    Bombo.sortear(bombos);
+  } while (Grupo.hayConfederacionesRepetida(grupos));
   Grupo.imprimirTablasUI(grupos, "grupos");
 });
