@@ -66,5 +66,6 @@ boton.addEventListener("click", () => {
   do {
     Bombo.sortear(bombos);
   } while (Grupo.hayConfederacionesRepetida(grupos));
+  Grupo.desordenarSelecciones();
   Grupo.imprimirTablasUI(grupos, "grupos");
 });

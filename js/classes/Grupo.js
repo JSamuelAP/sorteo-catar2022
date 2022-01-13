@@ -1,4 +1,6 @@
 import Tabla from "./Tabla.js";
+import { grupos as gruposLlenos } from "../app.js";
+import { aleatoriosSinRepetir } from "../funciones.js";
 
 class Grupo extends Tabla {
   constructor(id, selecciones) {
@@ -37,6 +39,20 @@ class Grupo extends Tabla {
     });
 
     return hayRepetidas;
+  }
+
+  // Solo las selecciones del bombo 1 siempre tienen la primera posición del grupo
+  // Las selecciones de los demás bombos pueden ocupar el lugar 2, 3 o 4 del grupo
+  // Este método intercambia las posiciones de las selecciones restantes
+  static desordenarSelecciones() {
+    gruposLlenos.forEach((grupo) => {
+      const aleatorios = aleatoriosSinRepetir(1, 3);
+      const [...copia] = grupo.selecciones;
+
+      for (let i = 1; i <= 3; i++) {
+        grupo.selecciones[i] = copia[aleatorios[i - 1]];
+      }
+    });
   }
 }
 
