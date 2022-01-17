@@ -1,6 +1,6 @@
 import Tabla from "./Tabla.js";
 import { aleatoriosSinRepetir } from "../funciones.js";
-import { grupos } from "../app.js";
+import { grupos } from "../funciones.js";
 
 class Bombo extends Tabla {
   constructor(id, selecciones) {

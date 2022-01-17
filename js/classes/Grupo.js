@@ -1,5 +1,5 @@
 import Tabla from "./Tabla.js";
-import { grupos as gruposLlenos } from "../app.js";
+import { grupos as gruposLlenos } from "../funciones.js";
 import { aleatoriosSinRepetir } from "../funciones.js";
 
 class Grupo extends Tabla {
