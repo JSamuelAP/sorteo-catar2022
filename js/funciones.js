@@ -96,6 +96,17 @@ export function initApp() {
     } while (Grupo.hayConfederacionesRepetida(grupos));
 
     Grupo.desordenarSelecciones();
-    Grupo.imprimirTablasUI(grupos, "grupos");
+    mostrarGrupos();
   });
+}
+
+function mostrarGrupos() {
+  const spinner = document.querySelector(".sk-cube-grid");
+  spinner.classList.remove("d-none");
+  document.querySelector("#grupos .row").textContent = "";
+
+  setTimeout(() => {
+    spinner.classList.add("d-none");
+    Grupo.imprimirTablasUI(grupos, "grupos");
+  }, 1000);
 }

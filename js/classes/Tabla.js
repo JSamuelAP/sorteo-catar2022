@@ -42,7 +42,6 @@ class Tabla {
       tablesFragment.appendChild(cloneTable);
     });
 
-    tablesSection.textContent = "";
     tablesSection.appendChild(tablesFragment);
   }
 }
