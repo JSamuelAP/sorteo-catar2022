@@ -2,9 +2,9 @@
 
 [Aplicación web](https://jsamuelap.github.io/sorteo-catar2022) que simula el sorteo de los grupos para el próximo mundial de fútbol de la FIFA que se llevará a cabo en Catar.
 
-![Captura de pantalla de los bombos](https://github.com/JSamuelAP/sorteo-catar2022/blob/master/images/.png)
+![Captura de pantalla de los bombos](https://github.com/JSamuelAP/sorteo-catar2022/blob/master/images/captura-bombos.png)
 
-![Captura de pantalla de los Grupos](https://github.com/JSamuelAP/sorteo-catar2022/blob/master/images/.png)
+![Captura de pantalla de los Grupos](https://github.com/JSamuelAP/sorteo-catar2022/blob/master/images/captura-grupos.png)
 
 ## Cómo funciona
 
