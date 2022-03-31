@@ -34,6 +34,9 @@ class Tabla {
         cloneRow
           .querySelector("img")
           .setAttribute("src", `images/flags/${seleccion.id}.png`);
+        cloneRow
+          .querySelector("img")
+          .setAttribute("alt", `Badera de ${seleccion.nombre}`);
 
         rowsFragment.appendChild(cloneRow);
       });
