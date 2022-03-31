@@ -18,7 +18,7 @@ A partir de 32 selecciones divididas en 4 bombos según su posición en el ranki
 
 ## Selecciones participantes
 
-Hasta la fecha aún no quedan definidas en su totalidad que selecciones participaran, por lo que las selecciones faltantes se escogieron según el formato de eliminación de cada confederación, y el ranking FIFA de diciembre del 2021.
+Hasta la fecha solo falta definir 3 selecciones que participaran, que son las que jugaran repechaje a mitad de año, las ganadoras se escogieron según el ranking FIFA de marzo del 2021.
 
 ### Anfitrión
 
@@ -26,73 +26,53 @@ Hasta la fecha aún no quedan definidas en su totalidad que selecciones particip
 
 ### UEFA
 
-10 selecciones ya tienen su boleto asegurado al mundial, solo falta jugarse el repechaje donde solo podrán acceder 3 de 12 selecciones repartidas en 3 llaves, para elegir al ganador de cada llave se tomó en cuenta la posición en el ranking:
-
-- Llave 1: Escocia, Ucrania, Gales y Austria, gana Gales.
-- Llave 2: Rusia, Polonia, Suecia y República Checa, gana Suecia.
-- Llave 3: Italia, Macedonia del Norte, Portugal y Turquía, gana Italia.
+12 selecciones ya tienen su boleto asegurado al mundial, solo falta jugarse el repechaje correspondiente a Gales vs el ganador entre Escocia y Ucrania (suspendido por la guerra). Según el rankig, Gales se toma como ganadora.
 
 Por lo tanto, así quedarían las 13 selecciones por parte de Europa:
 
 1. Bélgica
 2. Francia
 3. Inglaterra
-4. Italia
-5. España
-6. Dinamarca
-7. Países Bajos
+4. España
+5. Portugal
+6. Países Bajos
+7. Dinamarca
 8. Alemania
 9. Suiza
 10. Croacia
-11. Suecia
-12. Gales
-13. Serbia
+11. Gales\*
+12. Serbia
 
 ### CONBEMOL
 
-Argentina y Brasil ya están oficialmente calificadas, por lo que las 3 restantes fueron tomadas según su posición en la eliminatoria. CONMEBOL tiene una selección que debe ir a repechaje contra una selección asiática, la ganadora es la selección sudamericana por una posición más alta en el ranking.
+La quinta selección en CONMEBOL jugará repechaje en junio contra la ganadora del repechaje en AFC, tomando en cuenta el ranking, Perú se toma como clasificada por tener una posición más alta.
 
 1. Brasil
 2. Argentina
-3. Ecuador
-4. Colombia
-5. Perú
+3. Uruguay
+4. Ecuador
+5. Perú\*
 
 ### CONCACAF
 
-Las 4 selecciones también fueron seleccionadas por su posición en la eliminatoria de América del Norte, Centroamérica y el Caribe. CONCACAF también presentará una selección en el repechaje contra Oceanía, la ganadora es de CONCACAF por una posición más alta en el ranking.
+La cuarta selección jugará repechaje en junio contra el representante de Ocenía, por posición en el rankin, gana Costa Rica.
 
 1. Canadá
-2. Estados Unidos
-3. México
-4. Panamá
+2. México
+3. Estados Unidos
+4. Costa Rica\*
 
 ### CAF
 
-En la ronda 3 de las eliminatorias africanas, 10 selecciones se enfrentarán para definir las 5 participantes:
-
-- Argelia
-- Camerún
-- República Democrática del Congo
-- Egipto
-- Ghana
-- Mali
-- Marruecos
-- Nigeria
-- Senegal
-- Túnez
-
-Aún no se han definido los duelos, por lo que se tomaron las 5 selecciones con las posiciones más altas en el ranking:
-
 1. Senegal
 2. Marruecos
-3. Argelia
-4. Túnez
-5. Nigeria
+3. Túnez
+4. Camerún
+5. Ghana
 
 ### AFC
 
-Se tomaron las 4 selecciones mejor posicionadas en los dos grupos de las eliminatorias asiáticas. Aunque una quinta irá a repechaje (Australia vs. Perú), pierde el representante de Asia por peor posición en el ranking.
+Aún falta definirse el ganador del repechaje correspondiente a Emiratos Árabes Unidos vs Australia, de cualquier forma, el ganador se tendrá que enfrentar en el repechaje intercontinental contra el representante de CONMEBOL, perdiendo por posición en el ranking.
 
 1. Irán
 2. Japón
@@ -101,7 +81,7 @@ Se tomaron las 4 selecciones mejor posicionadas en los dos grupos de las elimina
 
 ### OFC
 
-Hasta el momento no se ha disputado las eliminatorias en Oceanía para definir una la selección que jugará repechaje contra CONCACAF, teniendo como claro vencedor a la CONCACAF (Panamá), dejando a la OFC sin representante en Catar.
+A Nueva Zelana le corresponde jugar repechaje contra el representante de CONCACAF, gangando esta última por posición en el ranking, dejando a Oceanía sin representantes en el mundial.
 
 ---
 
